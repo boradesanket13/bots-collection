@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is misamo", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me misamo.", "I'm misamo!", "I'm misamo aka cookie-woman."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat", "what do you sell","suggest me something","sell" ,"menu"],
+         "responses": ["We sell chocolate chip cookies for $2!,Check our website for more details :)", "Cookies are on the menu!,Check our website for more details :)","We got creme cookies for you,Check our website for more details :)","misamo serves delicious cookies please check out our website for more details! :)"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation" ,"whats your working hours","time","timings"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "thank",
+         "patterns": ["thanks", "thank you", "great" ,"cool", "love"],
+         "responses": ["misamo loves to treat you well >_<", "thank you for joining us"],
+         "context_set": ""
+        },
+        {"tag": "okay",
+         "patterns": ["okay", "yes", "i see" ,"i guess", "is it", "ok", "ummm", "agree"],
+         "responses": [">_<", ":)))))", "yuppp :)", ":o"],
+         "context_set": ""
+        },
+        {"tag": "buy",
+         "patterns": ["can i order", "can i buy", "i want to buy" ,"i want", "give me", "how to find"],
+         "responses": ["You can check our website for delicious cookies", "Sure! check your pretty website :>", "we are always at your service, buy it on our website", ":o we are happy to be serving you! check our website"],
+         "context_set": ""
+        }
+   ]
+}
