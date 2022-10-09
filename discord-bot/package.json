@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "module.exports = {\r     name: '&lt;name of the command&gt;',\r     aliases: [],\r     description: '&lt;description of what the command does&gt;',\r     usage: &lt;expected arguments&gt;,\r     cooldown: &lt;cooldown of the command in seconds&gt;,\r     execute(message, args) {\r         &lt;Actual execution of the command&gt;\r     },\r };",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "NODE_ENV=production npm start",
+    "dev": "NODE_ENV=development npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trulshj/discord-bot.git"
+  },
+  "author": "trulshj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trulshj/discord-bot/issues"
+  },
+  "homepage": "https://github.com/trulshj/discord-bot#readme"
+}
